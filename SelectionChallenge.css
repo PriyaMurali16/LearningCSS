@@ -1,0 +1,37 @@
+/* HTML */
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1 id="header">
+            Simple Selectors
+        </h1>
+        <ul>
+            <li class="list-item">Tag Selectors, for example - <span class="bold-text">div</span></li>
+            <li class="list-item">Id Selectors, for example - <span class="bold-text">#myid</span></li>
+            <li class="list-item">Class Selectors, for example - <span class="bold-text">.myclass</span></li>
+        </ul>
+    </div>
+</body>
+</html>
+
+
+
+/* CSS */
+body {background-color: blue;
+padding: 32px;}
+
+#container {border: 1px solid white;
+color: white;
+padding: 8px 16px;}
+
+#header {margin: 0;}
+
+.bold-text {font-weight: bold;
+border: 1px solid white;
+padding: 2px 4px;}
+
+.list-item {margin-bottom: 16px;}
