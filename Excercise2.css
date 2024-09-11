@@ -33,4 +33,12 @@ P {
 
 /*In line CSS */
 
-
+<!DOCTYPE html>
+<html>
+    <body>
+        <div style="width:50px;
+        height:50px;
+        background:green;"/>
+        
+    </body>
+</html>
