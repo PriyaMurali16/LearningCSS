@@ -1,0 +1,36 @@
+/*  3 options to style */
+/* External CSS */
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p>Introduction to CSS</p>
+</body>
+</html>
+
+     /* styles.css */
+
+P {
+    color: blue;
+}
+
+/*------------------------------------------------ */
+/* Internal CSS */
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {background-color: black}
+        h1 {color : white}
+    </style>
+</head>
+<body>
+	<h1>Introduction to CSS</h1>
+</body>
+</html>
+
+/*In line CSS */
+
+
