@@ -1,0 +1,29 @@
+/* Question : As before you are given three nested divs, give them all border, background color, width & height, style it nicely! */
+
+/* HTML */
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="box1">
+        <div id="box2">
+            <div id="box3"/>
+        </div>
+    </div>
+</body>
+</html>
+
+/* CSS */
+#box1 {border-width: 1px;
+border-style: dotted;
+background-color: brown;}
+
+#box2 {border-width: 2px;
+border-style: dotted;
+background-color: pink;}
+
+#box3 {border-width: 5px;
+border-style: dotted;
+background-color: yellow;}
