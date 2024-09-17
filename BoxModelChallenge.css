@@ -1,0 +1,27 @@
+/* Create a floating card using HTML and CSS. */
+/* Create a div with some text inside and add the following properties (with values of your choice!):
+
+width and height
+margin and padding
+border-radius
+box-shadow
+It's also optional to use the following properties,
+
+box-sizing
+border
+background-color
+color (not learned yet but used to change the text color)
+*/
+
+/* HTML */
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div> This is a floating card </div>
+</body>
+</html>
