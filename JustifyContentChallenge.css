@@ -1,0 +1,35 @@
+/* Justify content */
+/* HTML */
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="innerBox">
+            1
+        </div>
+        <div class="innerBox">
+            2
+        </div>
+        <div class="innerBox">
+            3
+        </div>
+    </div>
+</body>
+</html>
+
+
+/* CSS */
+.innerBox {
+    padding: 16px;
+    background-color: #ccc;
+    margin: 8px;
+}
+
+.container {
+    background-color: blue;
+    display: flex;
+    justify-content:space-evenly;
+}
